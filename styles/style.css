@@ -219,7 +219,6 @@ nav,
 /* run section style start */
 .run{
     margin-top: 100px;
-    
     gap: 165px;
     padding: 30px;
     border-radius: 18px;
@@ -239,3 +238,93 @@ background: #222;
     border-radius: 18px;
 }
 /* run section style end */
+/* bmi section style start */
+.bmi-content{
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.bmi-title, .bmi-description{
+    text-align: start;
+}
+
+.bmi-container{
+    background: #222;
+    padding: 0px 180px;
+    margin-top: 85px;
+}
+.bmi-info{
+    justify-content: space-between;
+    margin-top: 90px;
+   
+    
+}
+.bmi-info-table, .bmi-form-chart{
+    width: 50%;
+    margin-top: 52px;
+
+}
+.info-title{
+    color: #FFF;
+font-size: 28px;
+font-weight: 900;
+}
+.bmi-form-title{
+    margin-bottom: 14px;
+}
+.info-description{
+color: rgba(255, 255, 255, 0.50);
+font-size: 14px;
+font-weight: 400;
+}
+/* table */
+table{
+    margin-top: 50px;
+    width: 80%;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid grey;
+    padding: 15px 65px 15px 15px;
+    color: #FFF;
+font-size: 16px;
+font-weight: 500;
+}
+td{
+color: rgba(255, 255, 255, 0.50);
+font-size: 14px;
+font-weight: 400;
+}
+.form-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+.form-field {
+width: 48%;
+margin-top: 12px;
+}
+.form-field #activity{
+width: 100%;
+
+
+}
+.form-container input, select{
+    width: 100%;
+    padding: 12px 40px 12px 20px;
+    border: 0;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.10);
+}
+.form-container select{
+    padding: 12px 60px;
+}
+
+.form-field-activity{
+    width: 100%;
+}
+.form-btn{
+    margin-top: 35px;
+}
+/* bmi section style end */

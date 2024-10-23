@@ -54,7 +54,8 @@ header {
 nav,
 .banner,
 .habhit,
-.run
+.run,
+.footer-content
 {
     max-width: 1050px;
     margin: 0 auto;
@@ -347,10 +348,11 @@ background: rgba(255, 255, 255, 0.10);
 }
 .image-container {
     position: relative;
-
+height: 270px;
 }
   .image-container img {
     width: 100%;
+    height: 100%;
     border-radius: 18px;
     
   }
@@ -366,11 +368,65 @@ background: rgba(255, 255, 255, 0.10);
   }
   .title{
   
-color: white;
-font-size: 18px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 900;
   }
   .description{
-color: white;
-font-size: 14px;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
   }
 /* team section style end */
+/* footer section style start */
+
+footer{
+    background: rgba(255, 255, 255, 0.10);
+    margin-top: 88px;
+}
+.footer-content{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 100px;
+padding-top: 60px;
+padding-bottom: 30px;
+
+}
+.elit{
+color: #E6533C;
+font-family: Inter;
+font-size: 4rem;
+font-style: italic;
+font-weight: 800;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.footer-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.50);
+    margin-top: 20px;
+
+}
+.footer-content p a{
+text-decoration: none;
+    color: rgba(255, 255, 255, 0.50);
+   
+}
+footer hr{
+    max-width: 1000px;
+    margin: 0 auto;
+    stroke-width: 2px;
+stroke: rgba(224, 6, 6, 0.1);
+}
+.footer-2{
+    text-align: center;
+color: rgba(255, 255, 255, 0.50);
+font-size: 1.5rem;
+font-weight: 400;
+padding: 35px 0px;
+}
+/* footer section style end */

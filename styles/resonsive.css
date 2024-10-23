@@ -10,16 +10,27 @@
         display: block;
         color: white;
     }
-    .banner, .run, .bmi-info{
+    .banner,
+    .run,
+    .bmi-info{
         flex-direction: column;
     }
-    .img-container, .images-container{
+    .img-container,
+    .images-container,
+    .footer-content{
         grid-template-columns: repeat(1, 1fr);
     }
-    .run-content, .run-img, .bmi-info-table, .bmi-form-chart, table, .form-container{
+    .run-content,
+    .run-img,
+    .bmi-info-table,
+    .bmi-form-chart,
+    table,
+    .form-container{
         width: 100%;
     }
-    .bmi-content, .bmi-container{
+    .bmi-content,
+    .bmi-container,
+    .footer-content{
         padding: 20px;
             }
             .bmi-container{

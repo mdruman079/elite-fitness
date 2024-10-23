@@ -13,7 +13,7 @@
     .banner, .run, .bmi-info{
         flex-direction: column;
     }
-    .img-container{
+    .img-container, .images-container{
         grid-template-columns: repeat(1, 1fr);
     }
     .run-content, .run-img, .bmi-info-table, .bmi-form-chart, table, .form-container{

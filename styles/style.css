@@ -250,7 +250,7 @@ background: #222;
 
 .bmi-container{
     background: #222;
-    padding: 0px 180px;
+    padding: 20px 180px;
     margin-top: 85px;
 }
 .bmi-info{
@@ -328,3 +328,49 @@ background: rgba(255, 255, 255, 0.10);
     margin-top: 35px;
 }
 /* bmi section style end */
+/* team section style srart */
+.team{
+    margin-top: 80px;
+}
+.team-description{
+    margin-top: 14px;
+    margin-bottom: 58px;
+}
+.images-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.10);
+    padding: 20px;
+    border-radius: 18px;
+    
+}
+.image-container {
+    position: relative;
+
+}
+  .image-container img {
+    width: 100%;
+    border-radius: 18px;
+    
+  }
+  
+  .image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: left;
+  
+  }
+  .title{
+  
+color: white;
+font-size: 18px;
+  }
+  .description{
+color: white;
+font-size: 14px;
+  }
+/* team section style end */

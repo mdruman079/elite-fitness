@@ -132,7 +132,7 @@ nav,
     margin-top: 28px;
 }
 
-.btn-2 {
+.btn-2 {margin-left: 14px;
     background: transparent;
     border: 1px solid #FFFFFF;
 }
@@ -163,11 +163,21 @@ nav,
     top: 72%;
     left: -7%;
     width: max-content;
-    padding: 20px 23px 20px 75px;
+    padding: 20px 23px 20px 20px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.10);
     background: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur(10px);
+}
+.circle{
+    gap: 10px;
+    align-items: center;
+}
+.circle-element {
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
 }
 
 #number {
@@ -240,6 +250,58 @@ background: #222;
     border-radius: 18px;
 }
 /* run section style end */
+/* unique section style start */
+#unique-section {
+    margin-top: 50px;
+   height: 600px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../images/exer.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#unique-section .content {
+    width: 685px;
+}
+
+#unique-section .content .subtitle {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#unique-section .content .title {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 12px;
+}
+
+#unique-section .content .des {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 16px;
+}
+.btn-container{
+    text-align: center;
+}
+.btn {
+    padding: 14px 24px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+/* unique section style end */
 /* bmi section style start */
 .bmi-content{
     max-width: 650px;

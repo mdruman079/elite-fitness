@@ -49,6 +49,7 @@ body {
 /* header style */
 header {
     background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
+    padding-top: 55px;
 }
 
 nav,
@@ -312,6 +313,7 @@ width: 100%;
 
 }
 .form-container input, select{
+    color: rgba(255, 255, 255, 0.60);
     width: 100%;
     padding: 12px 40px 12px 20px;
     border: 0;
@@ -320,6 +322,9 @@ background: rgba(255, 255, 255, 0.10);
 }
 .form-container select{
     padding: 12px 60px;
+    color: rgba(255, 255, 255, 0.60);
+font-size: 12px;
+font-weight: 400;
 }
 
 .form-field-activity{

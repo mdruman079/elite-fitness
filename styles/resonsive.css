@@ -1,0 +1,16 @@
+@media screen and (max-width: 576px) {
+    .nav{
+        justify-content: space-around;
+        margin-bottom: 50px;
+        }
+    .nav-item{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        color: white;
+    }
+    .banner{
+        flex-direction: column;
+    }
+}

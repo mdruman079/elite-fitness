@@ -254,6 +254,7 @@ background: #222;
 #unique-section {
     margin-top: 50px;
    height: 600px;
+   border-radius: 10px;
     background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../images/exer.png");
     background-size: cover;
     background-position: center;
